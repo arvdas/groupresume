@@ -1,0 +1,32 @@
+function preventBack() { window. history. forward(); } setTimeout("preventBack()", 0);
+//for restricting user from going back to login.(i did not use it,bcoz i cant figure out how to use it) 
+
+
+
+
+
+
+
+let resumes = [    {...},    {...},    {...}];
+
+for (let i = 0; i < resumes.length; i++) {
+    let currentResume = resumes[i];
+    console.log(currentResume);
+}
+(for iterating through resumes)
+
+
+
+
+
+
+
+resumes.forEach(currentResume => {
+    console.log(currentResume);
+});
+
+
+
+
+
+
